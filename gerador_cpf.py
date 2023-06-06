@@ -1,11 +1,11 @@
 import re
 import random
 
-nove_digitos = ''
-contador_nove_digitos = 10
-
 for _ in range(10):
 
+    nove_digitos = ''
+    contador_nove_digitos = 10
+    
     for i in range(9):
         nove_digitos += str(random.randint(0, 9))
 
